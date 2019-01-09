@@ -16,20 +16,20 @@ export class ServerElementComponent implements OnInit, OnChanges, DoCheck {
   @Input('srvElement') element: {type: string, name: string, content: string};
 
   constructor() {
-    console.log('constructor called!');
+    // console.log('constructor called!');
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    console.log('ngOnChanges called!');
-    console.log(changes);
+    // console.log('ngOnChanges called!');
+    // console.log(changes);
   }
 
   ngOnInit() {
-    console.log('ngOnInit called!');
+    // console.log('ngOnInit called!');
   }
 
   ngDoCheck() {
-    console.log('ngDoCheck called!');
+    // console.log('ngDoCheck called!');
   }
 
 }
