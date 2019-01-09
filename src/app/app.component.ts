@@ -26,4 +26,8 @@ export class AppComponent {
     });
   }
 
+  onIntervalFired(firedNumber: number) {
+    console.log(firedNumber);
+  }
+
 }
